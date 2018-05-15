@@ -36,3 +36,7 @@ def find_a(array)
   end
   return collection
 end
+
+def sum_array(array)
+
+end
