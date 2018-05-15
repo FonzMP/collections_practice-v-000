@@ -34,4 +34,5 @@ def find_a(array)
       collection << word
     end
   end
+  return collection
 end
