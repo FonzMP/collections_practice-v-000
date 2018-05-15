@@ -22,6 +22,7 @@ end
 def kesha_maker(array)
   array.each do |word|
     dolla = word[2]
-    dolla.insert('$')
+    word.delete(dolla)
+    word.insert(2, '$')
   end
 end
