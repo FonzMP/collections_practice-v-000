@@ -20,7 +20,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |word|
+  array.collecct do |word|
     dolla = word[2]
     new_word = word.delete(dolla)
     new_word.insert(2, '$')
