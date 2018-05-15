@@ -40,6 +40,7 @@ end
 def sum_array(array)
   total = 0
   array.each do |number|
+    index = number.index
     total += number
   end
   return total
